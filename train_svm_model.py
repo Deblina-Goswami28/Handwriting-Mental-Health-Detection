@@ -18,9 +18,9 @@ model.fit(X_train, y_train)
 
 # Evaluate
 y_pred = model.predict(X_test)
-print("[📊] Classification Report:\n")
+print("Classification Report:\n")
 print(classification_report(y_test, y_pred))
 
 # Save model
 joblib.dump(model, "svm_handwriting_model.pkl")
-print("[✔] Model saved as svm_handwriting_model.pkl")
+print("Model saved as svm_handwriting_model.pkl")
