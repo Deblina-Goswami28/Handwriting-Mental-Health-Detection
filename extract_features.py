@@ -52,7 +52,7 @@ def create_feature_csv(dataset_dir, output_csv):
         "stroke_pressure", "pen_lifts", "line_spacing", "slant_angle", "label"
     ])
     df.to_csv(output_csv, index=False)
-    print(f"[✔] Features saved to: {output_csv}")
+    print(f"Features saved to: {output_csv}")
 
 
 if __name__ == "__main__":
